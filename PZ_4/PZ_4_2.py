@@ -7,6 +7,7 @@ while type(N) != int:            # обработка исключений
         N = int(N)
     except ValueError:
         N = input("Введите целое положительное число: ")
+
 while N <= 1:                    # обработка исключений
     N = input("Введите число больше единицы: ")
 while type(N) != int:
